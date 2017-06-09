@@ -1,0 +1,1 @@
+window不能使用os模块中的fork方法
