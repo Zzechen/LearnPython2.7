@@ -4,7 +4,7 @@
 f = open('txt.txt','w')
 f.write('dddd')
 
-#with -- to auto close io
+#with -- to auto close learn_io
 with open('txt.txt','r') as f:
     print f.read()
 

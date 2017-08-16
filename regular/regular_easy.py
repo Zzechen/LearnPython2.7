@@ -33,9 +33,10 @@ if re.match('\d{3}\s+\d{3,8}',a):
 else:
     print 'tel match false'
 
-a = '^\d'
-# match a string begin with number
-if re.match(a,'dd'):
+a = r'^\d'
+# match a learn_string begin with number
+pattern = re.compile(a)
+if re.match(pattern,'dd'):
     print True
 else:
     print False
